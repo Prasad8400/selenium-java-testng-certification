@@ -1,4 +1,7 @@
 # Selenium Java TestNG Project – LambdaTest Certification
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Selenium automation framework using Java and TestNG – built for LambdaTest TestNG certification.
 
 
