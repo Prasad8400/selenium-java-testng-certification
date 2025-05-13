@@ -2,6 +2,8 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+[![Certifications & Awards](https://img.shields.io/badge/Certifications%20%26%20Awards-10-blue)](https://github.com/Prasad8400/My_AwardsAndCertifications/blob/main/My_AwardsAndCertifications.md)
+
 Selenium automation framework using Java and TestNG – built for LambdaTest TestNG certification.
 
 
