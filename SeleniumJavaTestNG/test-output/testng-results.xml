@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="5" failed="6" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T16:11:07 IST" name="Suite" finished-at="2025-01-16T16:12:40 IST" duration-ms="92802">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T16:11:07 IST" name="TestingWithChrome" finished-at="2025-01-16T16:11:26 IST" duration-ms="19578">
+      <class name="SeleniumJavaTestNGAssignment.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:07 IST" name="setUp" finished-at="2025-01-16T16:11:19 IST" duration-ms="11727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:19 IST" name="setURI" finished-at="2025-01-16T16:11:22 IST" duration-ms="2911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign1_DOMElements()[pri:1, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:22 IST" name="assign1_DOMElements" finished-at="2025-01-16T16:11:22 IST" duration-ms="243" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign1_DOMElements -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:22 IST" name="setURI" finished-at="2025-01-16T16:11:22 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign2_CheckboxDemo()[pri:2, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:22 IST" name="assign2_CheckboxDemo" finished-at="2025-01-16T16:11:24 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign2_CheckboxDemo -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:24 IST" name="setURI" finished-at="2025-01-16T16:11:25 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign3_JavascriptAlerts()[pri:3, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:25 IST" name="assign3_JavascriptAlerts" finished-at="2025-01-16T16:11:26 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign3_JavascriptAlerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@26e356f0]" started-at="2025-01-16T16:11:26 IST" name="tearDown" finished-at="2025-01-16T16:11:26 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumJavaTestNGAssignment.TestScenarios -->
+    </test> <!-- TestingWithChrome -->
+    <test started-at="2025-01-16T16:11:26 IST" name="TestingWithEdge" finished-at="2025-01-16T16:11:40 IST" duration-ms="13577">
+      <class name="SeleniumJavaTestNGAssignment.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:26 IST" name="setUp" finished-at="2025-01-16T16:11:34 IST" duration-ms="7886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:34 IST" name="setURI" finished-at="2025-01-16T16:11:37 IST" duration-ms="2502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign1_DOMElements()[pri:1, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:37 IST" name="assign1_DOMElements" finished-at="2025-01-16T16:11:37 IST" duration-ms="192" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign1_DOMElements -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:37 IST" name="setURI" finished-at="2025-01-16T16:11:37 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign2_CheckboxDemo()[pri:2, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:37 IST" name="assign2_CheckboxDemo" finished-at="2025-01-16T16:11:39 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign2_CheckboxDemo -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:39 IST" name="setURI" finished-at="2025-01-16T16:11:39 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign3_JavascriptAlerts()[pri:3, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:39 IST" name="assign3_JavascriptAlerts" finished-at="2025-01-16T16:11:40 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign3_JavascriptAlerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@1a6d8329]" started-at="2025-01-16T16:11:40 IST" name="tearDown" finished-at="2025-01-16T16:11:40 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumJavaTestNGAssignment.TestScenarios -->
+    </test> <!-- TestingWithEdge -->
+    <test started-at="2025-01-16T16:11:40 IST" name="TestingWithFirefox" finished-at="2025-01-16T16:12:19 IST" duration-ms="39088">
+      <class name="SeleniumJavaTestNGAssignment.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:11:40 IST" name="setUp" finished-at="2025-01-16T16:11:56 IST" duration-ms="16256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:11:56 IST" name="setURI" finished-at="2025-01-16T16:12:06 IST" duration-ms="9630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign1_DOMElements()[pri:1, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:06 IST" name="assign1_DOMElements" finished-at="2025-01-16T16:12:07 IST" duration-ms="837" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign1_DOMElements -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:07 IST" name="setURI" finished-at="2025-01-16T16:12:11 IST" duration-ms="4307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign2_CheckboxDemo()[pri:2, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:11 IST" name="assign2_CheckboxDemo" finished-at="2025-01-16T16:12:16 IST" duration-ms="5235" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, clickElement {id=b6b566a9-abef-492a-971c-a2bc0252c1aa}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (6a31eea8-3f45-42a5-99cc-09141bd77279)] -> link text: Checkbox Demo]
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, clickElement {id=b6b566a9-abef-492a-971c-a2bc0252c1aa}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (6a31eea8-3f45-42a5-99cc-09141bd77279)] -> link text: Checkbox Demo]
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:418)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign2_CheckboxDemo(TestScenarios.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.InterruptedException
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:412)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign2_CheckboxDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:16 IST" name="tearDown" finished-at="2025-01-16T16:12:19 IST" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:16 IST" name="setURI" finished-at="2025-01-16T16:12:18 IST" duration-ms="1347" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId 6a31eea8-3f45-42a5-99cc-09141bd77279, maybe session has quit already or timed out.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, get {url=https://www.lambdatest.com/selenium-playground/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to find the session info for particular sessionId 6a31eea8-3f45-42a5-99cc-09141bd77279, maybe session has quit already or timed out.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, get {url=https://www.lambdatest.com/selenium-playground/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at SeleniumJavaTestNGAssignment.BaseClass.setURI(BaseClass.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign3_JavascriptAlerts()[pri:3, instance:SeleniumJavaTestNGAssignment.TestScenarios@4145bad8]" started-at="2025-01-16T16:12:18 IST" name="assign3_JavascriptAlerts" finished-at="2025-01-16T16:12:18 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId 6a31eea8-3f45-42a5-99cc-09141bd77279, maybe session has quit already or timed out.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, get {url=https://www.lambdatest.com/selenium-playground/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to find the session info for particular sessionId 6a31eea8-3f45-42a5-99cc-09141bd77279, maybe session has quit already or timed out.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, get {url=https://www.lambdatest.com/selenium-playground/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at SeleniumJavaTestNGAssignment.BaseClass.setURI(BaseClass.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign3_JavascriptAlerts -->
+      </class> <!-- SeleniumJavaTestNGAssignment.TestScenarios -->
+    </test> <!-- TestingWithFirefox -->
+    <test started-at="2025-01-16T16:12:19 IST" name="TestingWithInternetExplorer" finished-at="2025-01-16T16:12:40 IST" duration-ms="20466">
+      <class name="SeleniumJavaTestNGAssignment.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:19 IST" name="setUp" finished-at="2025-01-16T16:12:30 IST" duration-ms="10455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:30 IST" name="setURI" finished-at="2025-01-16T16:12:31 IST" duration-ms="1254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign1_DOMElements()[pri:1, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:31 IST" name="assign1_DOMElements" finished-at="2025-01-16T16:12:31 IST" duration-ms="379" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign1_DOMElements -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:31 IST" name="setURI" finished-at="2025-01-16T16:12:32 IST" duration-ms="588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign2_CheckboxDemo()[pri:2, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:32 IST" name="assign2_CheckboxDemo" finished-at="2025-01-16T16:12:35 IST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign2_CheckboxDemo -->
+        <test-method is-config="true" signature="setURI(java.lang.String)[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:35 IST" name="setURI" finished-at="2025-01-16T16:12:35 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method signature="assign3_JavascriptAlerts()[pri:3, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:35 IST" name="assign3_JavascriptAlerts" finished-at="2025-01-16T16:12:40 IST" duration-ms="4240" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 4013811c-2dee-47b1-a3c3-c0f...}
+Session ID: 4013811c-2dee-47b1-a3c3-c0f8ce177261]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 4013811c-2dee-47b1-a3c3-c0f...}
+Session ID: 4013811c-2dee-47b1-a3c3-c0f8ce177261
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SeleniumJavaTestNGAssignment.TestScenarios.assign3_JavascriptAlerts(TestScenarios.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign3_JavascriptAlerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumJavaTestNGAssignment.TestScenarios@750e2b97]" started-at="2025-01-16T16:12:40 IST" name="tearDown" finished-at="2025-01-16T16:12:40 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumJavaTestNGAssignment.TestScenarios -->
+    </test> <!-- TestingWithInternetExplorer -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\AVWDNC744\pdea-lambda-test\SeleniumJavaTestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 6 failed,  1 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign1_DOMElements">assign1_DOMElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign1_DOMElements">assign1_DOMElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign1_DOMElements">assign1_DOMElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign1_DOMElements">assign1_DOMElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign2_CheckboxDemo">assign2_CheckboxDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign3_JavascriptAlerts">assign3_JavascriptAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign3_JavascriptAlerts">assign3_JavascriptAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign2_CheckboxDemo">assign2_CheckboxDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign2_CheckboxDemo">assign2_CheckboxDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign2_CheckboxDemo">assign2_CheckboxDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign3_JavascriptAlerts">assign3_JavascriptAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumJavaTestNGAssignment.TestScenarios" class="method navigator-link" hash-for-method="assign3_JavascriptAlerts">assign3_JavascriptAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SeleniumJavaTestNGAssignment.TestScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign1_DOMElements">
+                  </a> <!-- assign1_DOMElements -->
+                  <span class="method-name">assign1_DOMElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign1_DOMElements">
+                  </a> <!-- assign1_DOMElements -->
+                  <span class="method-name">assign1_DOMElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign1_DOMElements">
+                  </a> <!-- assign1_DOMElements -->
+                  <span class="method-name">assign1_DOMElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign1_DOMElements">
+                  </a> <!-- assign1_DOMElements -->
+                  <span class="method-name">assign1_DOMElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign1_DOMElements(TestScenarios.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign2_CheckboxDemo">
+                  </a> <!-- assign2_CheckboxDemo -->
+                  <span class="method-name">assign2_CheckboxDemo</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, clickElement {id=b6b566a9-abef-492a-971c-a2bc0252c1aa}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (6a31eea8-3f45-42a5-99cc-09141bd77279)] -&gt; link text: Checkbox Demo]
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:418)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign2_CheckboxDemo(TestScenarios.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:412)
+	... 27 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign3_JavascriptAlerts">
+                  </a> <!-- assign3_JavascriptAlerts -->
+                  <span class="method-name">assign3_JavascriptAlerts</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 4013811c-2dee-47b1-a3c3-c0f...}
+Session ID: 4013811c-2dee-47b1-a3c3-c0f8ce177261
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at SeleniumJavaTestNGAssignment.TestScenarios.assign3_JavascriptAlerts(TestScenarios.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SeleniumJavaTestNGAssignment.TestScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign3_JavascriptAlerts">
+                  </a> <!-- assign3_JavascriptAlerts -->
+                  <span class="method-name">assign3_JavascriptAlerts</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to find the session info for particular sessionId 6a31eea8-3f45-42a5-99cc-09141bd77279, maybe session has quit already or timed out.
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6a31eea8-3f45-42a5-99cc-09141bd77279, get {url=https://www.lambdatest.com/selenium-playground/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8232, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6a31eea8-3f45-42a5-99cc-09141bd77279
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at SeleniumJavaTestNGAssignment.BaseClass.setURI(BaseClass.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumJavaTestNGAssignment.TestScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign2_CheckboxDemo">
+                  </a> <!-- assign2_CheckboxDemo -->
+                  <span class="method-name">assign2_CheckboxDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign2_CheckboxDemo">
+                  </a> <!-- assign2_CheckboxDemo -->
+                  <span class="method-name">assign2_CheckboxDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign2_CheckboxDemo">
+                  </a> <!-- assign2_CheckboxDemo -->
+                  <span class="method-name">assign2_CheckboxDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign3_JavascriptAlerts">
+                  </a> <!-- assign3_JavascriptAlerts -->
+                  <span class="method-name">assign3_JavascriptAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assign3_JavascriptAlerts">
+                  </a> <!-- assign3_JavascriptAlerts -->
+                  <span class="method-name">assign3_JavascriptAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\AVWDNC744\pdea-lambda-test\SeleniumJavaTestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;TestingWithChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;128.0&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.lambdatest.com/selenium-playground/&quot;/&gt;
+    &lt;parameter name=&quot;platformname&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumJavaTestNGAssignment.TestScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestingWithChrome --&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;TestingWithEdge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;127.0&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.lambdatest.com/selenium-playground/&quot;/&gt;
+    &lt;parameter name=&quot;platformname&quot; value=&quot;macOS Ventura&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumJavaTestNGAssignment.TestScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestingWithEdge --&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;TestingWithFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;130.0&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.lambdatest.com/selenium-playground/&quot;/&gt;
+    &lt;parameter name=&quot;platformname&quot; value=&quot;Windows 11&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumJavaTestNGAssignment.TestScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestingWithFirefox --&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;TestingWithInternetExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internet explorer&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;11.0&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.lambdatest.com/selenium-playground/&quot;/&gt;
+    &lt;parameter name=&quot;platformname&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumJavaTestNGAssignment.TestScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestingWithInternetExplorer --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestingWithChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestingWithEdge (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestingWithFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestingWithInternetExplorer (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'assign2_CheckboxDemo')
+data.setCell(0, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(0, 3, 5235);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'assign3_JavascriptAlerts')
+data.setCell(1, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(1, 3, 4240);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'assign2_CheckboxDemo')
+data.setCell(2, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(2, 3, 2812);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'assign2_CheckboxDemo')
+data.setCell(3, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(3, 3, 2105);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'assign3_JavascriptAlerts')
+data.setCell(4, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(4, 3, 1604);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'assign2_CheckboxDemo')
+data.setCell(5, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(5, 3, 1307);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'assign3_JavascriptAlerts')
+data.setCell(6, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(6, 3, 1074);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'assign1_DOMElements')
+data.setCell(7, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(7, 3, 837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'assign1_DOMElements')
+data.setCell(8, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(8, 3, 379);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'assign1_DOMElements')
+data.setCell(9, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(9, 3, 243);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'assign1_DOMElements')
+data.setCell(10, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(10, 3, 192);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'assign3_JavascriptAlerts')
+data.setCell(11, 2, 'SeleniumJavaTestNGAssignment.TestScenarios')
+data.setCell(11, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumJavaTestNGAssignment.TestScenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Windows 10, chrome, 128.0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">11744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign1_DOMElements</span>
+                <span class="method-start">14655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">14905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign2_CheckboxDemo</span>
+                <span class="method-start">15270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">17376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign3_JavascriptAlerts</span>
+                <span class="method-start">17739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19345 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(macOS Ventura, edge, 127.0)</span>
+                <span class="method-start">19624 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">27513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign1_DOMElements</span>
+                <span class="method-start">30015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">30210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign2_CheckboxDemo</span>
+                <span class="method-start">30466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">31775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign3_JavascriptAlerts</span>
+                <span class="method-start">31979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33055 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Windows 11, firefox, 130.0)</span>
+                <span class="method-start">33220 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">49478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign1_DOMElements</span>
+                <span class="method-start">59108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">59953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign2_CheckboxDemo</span>
+                <span class="method-start">64260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69487 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">69498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign3_JavascriptAlerts</span>
+                <span class="method-start">70851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Windows 10, internet explorer, 11.0)</span>
+                <span class="method-start">72327 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">82785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign1_DOMElements</span>
+                <span class="method-start">84039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">84422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assign2_CheckboxDemo</span>
+                <span class="method-start">85010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setURI(https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">87827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assign3_JavascriptAlerts</span>
+                <span class="method-start">88439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92683 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
