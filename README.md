@@ -4,6 +4,11 @@
 
 [![Certifications & Awards](https://img.shields.io/badge/Certifications%20%26%20Awards-10-blue)](https://github.com/Prasad8400/My_AwardsAndCertifications/blob/main/My_AwardsAndCertifications.md)
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)](https://www.java.com/)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=flat&logo=testng)](https://testng.org/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven)](https://maven.apache.org/)
+
 Selenium automation framework using Java and TestNG – built for LambdaTest TestNG certification.
 
 
